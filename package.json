@@ -1,0 +1,18 @@
+{
+    "name": "com.lynx.globalevent",
+    "category": "大破坏系统",
+    "displayName": "大破坏事件系统",
+    "version": "1.0.1", 
+    "unity": "2019.1", 
+    "description": "大破坏事件系统用于快速方便的创建全局响应事件。\r\n添加引用：using LynxGlobalEventTool;\r\n注册事件：LynxEvents.Add()\r\n移除事件：LynxEvents.Remove()\r\n发送事件：LynxEvents.Send()", 
+    "keywords": [ 
+    "大破坏",
+    "event"
+    ],
+    "author": "大破坏幸存者",
+    "samples":[{
+        "displayName": "事件发送接收范例",
+        "description": "简单的使用范例",
+        "path": "Samples~"
+     }]
+    }
