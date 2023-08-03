@@ -1,14 +1,19 @@
 using System.Collections.Generic;
 using System;
+using UnityEngine;
 
 namespace LynxGlobalEventTool
 {
     /// <summary>
     /// 大破坏事件系统
     /// </summary>
-    public class LynxEvents
+    public class LynxEvents :MonoBehaviour
     {
-        static LynxEvents Instance = new LynxEvents();
+        static LynxEvents Instance;
+        public LynxEvents() 
+        {
+            Instance = new LynxEvents();
+        }
 
         static Dictionary<Type, List<Holder>> dic = new Dictionary<Type, List<Holder>>();
         /// <summary>
